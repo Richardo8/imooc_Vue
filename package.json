@@ -1,0 +1,22 @@
+{
+  "name": "vuetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richardo8/imooc_Vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richardo8/imooc_Vue/issues"
+  },
+  "homepage": "https://github.com/Richardo8/imooc_Vue#readme",
+  "devDependencies": {
+    "vue": "^2.1.10"
+  }
+}
