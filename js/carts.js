@@ -23,3 +23,6 @@ var vm = new Vue({
     }
 })
 
+Vue.filter("money", function (value, type) {
+    return  "￥" + value.toFixed(2) + type;
+})

@@ -16,10 +16,18 @@
             </div>
             <div>
                 <div>{{item.productPrice | formatMoney}}</div>
+                <div>-</div>
+                <div>+</div>
             </div>
+
         </li>
     </ul>
-    <div></div>
+    <div>
+        <div>
+            <div>{{totalMoney | money('元')}}</div>
+        </div>
+
+    </div>
 </div>
 </body>
 <script src="js/vue.min.js"></script>
