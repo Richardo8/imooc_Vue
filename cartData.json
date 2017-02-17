@@ -1,0 +1,34 @@
+{
+  "status": 1,
+  "message": "success",
+  "result": {
+    "totalMoney": 59,
+    "list": [
+      {
+        "productId": "100000",
+        "productName": "GTX650",
+        "productPrice": 19,
+        "productQuentity": 1,
+        "productImage": "static/img/test.jpg",
+        "parts": [{
+          "partsId": "10001",
+          "partsName": "鼠标"
+        },{
+          "partsId": "10002",
+          "partsName": "鼠标1"
+        }]
+      },
+      {
+        "productId": "100001",
+        "productName": "GTX1050",
+        "productPrice": 19,
+        "productQuentity": 1,
+        "productImage": "static/img/test.jpg",
+        "parts": [{
+          "partsId": "20001",
+          "partsName": "键盘"
+        }]
+      }
+    ]
+  }
+}

@@ -6,7 +6,20 @@
 </head>
 <body>
 <div id="app">
-    <h2>{{title}}</h2>
+    <ul>
+        <li v-for="item in productList">
+            <div>
+                <dl>
+                    <dt>赠送：</dt>
+                    <dd v-for="part in item.parts" v-text="part.partsName"></dd>
+                </dl>
+            </div>
+            <div>
+                <div>{{item.productPrice}}</div>
+            </div>
+        </li>
+    </ul>
+    <div></div>
 </div>
 </body>
 <script src="js/vue.min.js"></script>
