@@ -5,7 +5,9 @@ var vm = new Vue({
         productList: []
     },
     filters: {
-
+        formatMoney: function (value) {
+           return  "￥" + value.toFixed(2);
+        }
     },
     mounted: function () {
         this.cartView()
