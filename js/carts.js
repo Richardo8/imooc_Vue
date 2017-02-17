@@ -19,6 +19,9 @@ var vm = new Vue({
                 _this.totalMoney = res.body.result.totalMoney;
                 _this.productList = res.body.result.list;
             })
+        },
+        changeMoney: function () {
+            
         }
     }
 })
